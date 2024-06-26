@@ -95,3 +95,12 @@ console.log(newObject);
 
 const newObj={..."abc"};
 console.log(newObj);
+
+// Object destructing
+const band={
+  bandName: "led zepplin",
+  famousSong:"stairway to heaven",
+  year:1968,
+};
+const {bandName,famousSong}=band;
+console.log(bandName,famousSong);
